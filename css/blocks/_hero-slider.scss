@@ -11,8 +11,8 @@
     .hero-slider__caption {
        .caption-wrapper{
         @media (min-width: 2300px) and (max-width: 2960px) {
-            padding-top: 8.5rem !important;
-             padding-bottom : 10.5rem  !important;
+            padding-top: 6.5rem !important;
+             padding-bottom : 7.5rem  !important;
 
 
         }
@@ -31,7 +31,7 @@
 
                 }
                 @media (min-width: 1784px) and (max-width: 2960px) {
-                    font-size: 30px;
+                    font-size: 28px;
                 }
                 
 
@@ -42,11 +42,18 @@
             h1{
                 padding-left: 12px;
                 @media (min-width: 1784px) and (max-width: 2960px) {
-                    font-size: 65px; 
+                    font-size: 62px; 
 
                 }
                 @media (max-width: 1255px) {
                     font-size: 31px; 
+
+                }
+                @media (min-width: 1313px) and (max-width: 1376px) {
+                    
+                    font-size: 39px !important;
+
+                    
 
                 }
             }

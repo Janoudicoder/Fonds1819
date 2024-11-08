@@ -60,7 +60,7 @@ elseif ($volgorde == 'afbeelding - tekst') {
     $contentLinks .= '</div>'; // Close SVG overlay
     $contentLinks .= '</div>'; // Close img-wrapper
 
-    $contentRechtsClass = "relative p-6 flex flex-col items-start w-full  h-full lg:justify-center lg:max-w-[653px]";
+    $contentRechtsClass = "relative p-6 flex flex-col items-start justify-self-center w-full h-full lg:justify-center lg:max-w-[653px]";
     $contentRechts = '<div class="text-wrapper py-0 lg:py-0 mx-auto w-full standaard-content text-base  md: lg: text-left lg:text-left">' . $tekst . '</div>'; 
 }
 
